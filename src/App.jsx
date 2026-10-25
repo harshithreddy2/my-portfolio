@@ -7,12 +7,12 @@ import Intro from "./Components/Intro";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
-import Education from "./Components/Education";
+import Education from "./Components/education";
 import Skills from "./Components/Skills";
-import Projects from "./Components/Projects";
+import Projects from "./Components/projects";
 import CodingProfiles from "./Components/CodingProfiles";
 import Achievements from "./Components/Achievements";
-import Contact from "./Components/Contact";
+import Contact from "./Components/contact";
 
 function App() {
   const [showIntro, setShowIntro] = useState(true);
