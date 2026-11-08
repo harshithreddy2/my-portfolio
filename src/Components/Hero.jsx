@@ -90,22 +90,20 @@ function Hero() {
           </div>
         </motion.div>
 
-        {/* RIGHT: CLEAN PROFILE DESIGN */}
+        {/* RIGHT: MINIMAL SQUARE PROFILE */}
         <motion.div
           className="hero-visual"
-          initial={{ opacity: 0, x: 45, scale: 0.96 }}
-          animate={{ opacity: 1, x: 0, scale: 1 }}
+          initial={{ opacity: 0, x: 45 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{
             duration: 1,
             delay: 0.2,
             ease: [0.22, 1, 0.36, 1],
           }}
         >
-          <div className="hero-photo-decoration"></div>
-
           <motion.div
             className="hero-photo-frame"
-            whileHover={{ y: -5 }}
+            whileHover={{ y: -4 }}
             transition={{ duration: 0.35 }}
           >
             <img
