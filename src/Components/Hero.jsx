@@ -80,7 +80,7 @@ function Hero() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/dharshreddy/"
+              href="https://www.linkedin.com/in/dharshithreddy/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
